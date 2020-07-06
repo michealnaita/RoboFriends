@@ -2,9 +2,9 @@ import React from "react";
 import Card from "./Card";
 
 const CardList = ({robots}) =>{
-if(true){
-    throw new Error("noooooo");
-}
+// if(true){
+//     throw new Error("noooooo");
+// }
 	return(
 		<div>
         {
@@ -20,7 +20,7 @@ if(true){
         }
        </div>
 	    );
-}
+
 
 }
 export default CardList;
